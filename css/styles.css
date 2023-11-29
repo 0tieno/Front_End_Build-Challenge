@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Open+Sans:wght@400;500;600;700&display=swap');
 
 /* ||RESET */
 *{
@@ -9,6 +9,10 @@
 
 /* ||BASIC STYLES */
 
+body, html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .btn{
     margin-top: 6rem;
     cursor: pointer;
@@ -17,7 +21,9 @@
 .contact-btn {
     color: #000;
     background-color: #FF5B22;
-    padding: 15px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 13px;
     border-radius: 5px;
 }
 
@@ -54,6 +60,8 @@ nav{
     align-items: center;
     justify-content: center;
     list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .nav-links ul li{
@@ -76,6 +84,12 @@ nav{
     transform: translate(-50%, -50%);
 }
 
+.showcase-title{
+    font-family: 'Give You Glory', cursive;
+    font-size: 1.6rem;
+    padding-top: 1.5rem;
+}
+
 .showcase-content{
     display: flex;
     justify-content: center;
@@ -86,10 +100,17 @@ nav{
 }
 
 .caption{
-    padding-top: 2rem;
+    padding-top: 3rem;
     white-space: nowrap;
+    font-family: 'Give You Glory', cursive;
+    font-size: 21px;
+    font-weight: 500;
 }
 
 .arrow{
     margin-top: -4rem;
+}
+
+.img img{
+    margin-bottom: -2.5rem;
 }
