@@ -1,10 +1,95 @@
+
+
+/* ||RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ||BASIC STYLES */
+
+.btn{
+    margin-top: 6rem;
+    cursor: pointer;
+}
+
+.contact-btn {
+    color: #000;
+    background-color: #FF5B22;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contact-btn i{
+    padding-left: 0.5rem;
+}
+
+/* ||HEADER */
 .main-header{
-    min-height: 100vh;
+    min-height: 70vh;
     background-color: #333;
+    background-image: url(../images/pimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+/* navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4rem;
+    background-color: rgba(51, 51, 51, 0.8);
+}
+
+.logo img{
+    width: 100px;
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links ul li{
+    margin-left: 2rem;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* showcase */
+.showcase{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.showcase-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    margin-top: 4rem;
+}
+
+.caption{
+    padding-top: 2rem;
+    white-space: nowrap;
+}
+
+.arrow{
+    margin-top: -4rem;
 }
