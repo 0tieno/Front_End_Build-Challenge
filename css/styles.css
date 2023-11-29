@@ -13,17 +13,19 @@ body, html{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* btns */
 .btn{
     margin-top: 6rem;
     cursor: pointer;
 }
 
 .contact-btn {
-    color: #000;
-    background-color: #FF5B22;
+    color: #fff;
+    border: 2px solid #CD5C08;
+    background-color: rgba(0, 0, 0, 0.9);
     font-size: 1.4rem;
     font-weight: 600;
-    padding: 13px;
+    padding: 12px 10px;
     border-radius: 5px;
 }
 
@@ -53,6 +55,7 @@ nav{
 
 .logo img{
     width: 100px;
+    cursor: pointer;
 }
 
 .nav-links ul{
@@ -71,6 +74,28 @@ nav{
 .nav-links ul li a{
     text-decoration: none;
     color: #fff;
+
+    position: relative;
+    padding: 5px 0;
+}
+
+/* .nav-links ul li a:hover{
+    color: #CD5C08;
+} */
+
+.nav-links ul li a::after{
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+    height: 2px;
+    background-color: #CD5C08;
+    transition: 0.5s ease;
+}
+
+.nav-links ul li a:hover::after{
+    width: 100%;
 }
 
 
