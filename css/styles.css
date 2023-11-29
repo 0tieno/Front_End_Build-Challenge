@@ -42,7 +42,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px 4rem;
-    background-color: rgba(51, 51, 51, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo img{
