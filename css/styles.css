@@ -13,6 +13,10 @@ body, html{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* btns */
 .btn{
     margin-top: 6rem;
@@ -27,6 +31,11 @@ body, html{
     font-weight: 600;
     padding: 12px 10px;
     border-radius: 5px;
+    transition: border 0.3s ease;
+}
+
+.contact-btn:hover{
+    border: none;
 }
 
 .contact-btn i{
@@ -139,3 +148,20 @@ nav{
 .img img{
     margin-bottom: -2.5rem;
 }
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+
+  .btn i {
+    animation: bounce 2s infinite;
+  }
