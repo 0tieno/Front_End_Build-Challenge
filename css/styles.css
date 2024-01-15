@@ -17,6 +17,10 @@ a{
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+}
+
 /* btns */
 .btn{
     margin-top: 6rem;
@@ -226,5 +230,57 @@ nav{
     font-weight: 500;
     margin-top: 1rem;
   }
+
+  /* food-category section */
+  .food-category{
+    padding: 3rem 4rem;
+    text-align: center;
+  }
+
+  .food-category-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .food-category-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .food-category-content .food-category-img{
+    width: 30%;
+    padding: 2rem 1rem;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .food-category-content .food-category-img:hover{
+    background-color: #CD5C08;
+  }
+
+  .food-category-content .food-category-img img{
+    margin-bottom: 1rem;
+  }
+
+  .food-category-content .food-category-img h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .food-category-content .food-category-img .price{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+
+
+
 
   
