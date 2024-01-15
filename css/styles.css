@@ -242,6 +242,41 @@ nav{
     font-weight: 600;
   }
 
+  /* search btn */
+  .search{
+    margin-top: 2rem;
+  }
+
+  /* input property */
+  .search input{
+    width: 20%;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    color: #3498db; /* Text color */
+    background-color: #ffffff; /* Background color */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transition effect */
+  }
+
+  .search input:focus{
+    outline: none;
+  }
+
+  .search input i{
+    padding-left: 0.5rem;
+    padding: 1rem;
+    outline: none;
+
+    
+  }
+
+
+
+
   .food-category-content{
     display: flex;
     justify-content: center;
