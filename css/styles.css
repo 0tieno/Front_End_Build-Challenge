@@ -186,15 +186,45 @@ nav{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #eee;
   }
 
   .promotion{
     width: 60%;
-    margin-top: -90px;
+    margin-top: -100px;
     padding: 3rem 4rem;
     text-align: center;
     background-color: #333;
     z-index: 99;
+  }
+
+  .promotion-btn{
+    margin-top: 2rem;
+  }
+
+  .promotion-btn a{
+    display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border: 2px solid #3498db; /* Border color */
+      border-radius: 5px; /* Rounded corners */
+      color: #3498db; /* Text color */
+      background-color: #ffffff; /* Background color */
+      transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transition effect */
+  }
+
+  .promotion-content h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .promotion-content p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
   }
 
   
