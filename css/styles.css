@@ -296,6 +296,7 @@ nav{
 
   .food-category-content .food-category-img:hover{
     background-color: #CD5C08;
+    cursor: pointer;
   }
 
   .food-category-content .food-category-img img{
