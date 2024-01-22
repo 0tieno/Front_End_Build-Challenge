@@ -28,3 +28,32 @@ window.addEventListener('scroll', function() {
     }
 });
 
+
+
+// ||MENU-BTN
+
+let menuBtn = document.querySelector("#menu-btn");
+let menu = document.querySelector('.menu-list');
+
+// Event listener for the menu button
+menuBtn.addEventListener('click', toggleBtn);
+
+
+// Event listener for the window
+window.addEventListener('click', closeMenu);
+
+function toggleBtn(event){
+    // Prevent the click event from propagating to the window
+    event.stopPropagation();
+    menu.classList.toggle('active');
+};
+
+
+function closeMenu(e){
+    // if(e.target !== menuBtn && e.target !== menu){
+    //     menu.classList.remove('active');
+    // }
+
+    menu.classList.remove('active');
+}
+
