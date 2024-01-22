@@ -329,6 +329,7 @@ nav{
 
 /* ||MEDIA QUERIES */
 @media (max-width: 700px){
+  /* ||MenuBtn */
   #menu-btn{
     display: block;
   }
@@ -380,8 +381,27 @@ nav{
     transform: translateX(0);
   }
 
+  /* ||Showcase */
+  .showcase-title{
+    font-size: 1.2rem;
+  }
+
+  .img img{
+   width: 50%;
+  }
+
+  .showcase-content{
+    gap: 4rem;
+  }
+
+  
+
+  .caption{
+    font-size: 1.1rem;
+    white-space: wrap;
+  }
+
 
 }
-
 
   
